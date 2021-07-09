@@ -1,12 +1,20 @@
 {
-  "name": "src",
+  "name": "react_portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "cd react_portfolio && npm start"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcorcorangithub/react_portfolio.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "https://jcorcorangithub.github.io/my-app"
+  "bugs": {
+    "url": "https://github.com/jcorcorangithub/react_portfolio/issues"
+  },
+  "homepage": "https://github.com/jcorcorangithub/react_portfolio#readme"
 }
