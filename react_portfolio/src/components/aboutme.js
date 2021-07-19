@@ -1,9 +1,9 @@
-import React from 'react';
+// import React from 'react';
 
-function AboutMe(){
+export default function AboutMe(){
     return (
         <p>about me</p>
     );
 }
 
-export default AboutMe;
+// export default AboutMe;

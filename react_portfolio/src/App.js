@@ -13,7 +13,11 @@ function App() {
   return (
     <Router>
 
-      {/* <Route exact path ='/aboutme'> */}
+      {/* <Route exact path ='/navbar'> */}
+        <NavBar />
+      {/* </Route> */}
+
+      {/* <Route exact path ='/aboutme'>  */}
         <AboutMe />
       {/* </Route> */}
 

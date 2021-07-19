@@ -1,3 +1,9 @@
+// import React from 'react';
+
 export default function NavBar(){
-    <p>navbar</p>
+    return (
+        <p>navbar</p>
+    );
 }
+
+// export default NavBar;
