@@ -1,3 +1,9 @@
-export default function AboutMe(){
-    <p>about me</p>
+import React from 'react';
+
+function AboutMe(){
+    return (
+        <p>about me</p>
+    );
 }
+
+export default AboutMe;

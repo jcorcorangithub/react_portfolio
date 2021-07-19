@@ -11,7 +11,13 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <header> header </header>
+    <Router>
+
+      {/* <Route exact path ='/aboutme'> */}
+        <AboutMe />
+      {/* </Route> */}
+
+    </Router>
   );
 }
 
