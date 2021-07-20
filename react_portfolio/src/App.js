@@ -11,17 +11,22 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 function App() {
   return (
+    <div>
     <Router>
+      <header>James Corcoran
+        {/* <Route exact path ='/navbar'> */}
+          <NavBar />
+        {/* </Route> */}
+      </header>
 
-      {/* <Route exact path ='/navbar'> */}
-        <NavBar />
-      {/* </Route> */}
-
+      
+        
       {/* <Route exact path ='/aboutme'>  */}
         <AboutMe />
       {/* </Route> */}
 
     </Router>
+    </div>
   );
 }
 

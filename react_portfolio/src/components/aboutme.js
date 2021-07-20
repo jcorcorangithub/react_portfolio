@@ -2,7 +2,7 @@
 
 export default function AboutMe(){
     return (
-        <p>about me</p>
+        <p>this is information about me</p>
     );
 }
 
