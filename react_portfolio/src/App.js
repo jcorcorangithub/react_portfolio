@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/navbar'
 import AboutMe from './components/aboutme'
-import Contacts from './components/contacts'
+import Contact from './components/contact'
 import Footer from './components/footer'
 import Projects from './components/projects'
 import Resume from './components/resume'
