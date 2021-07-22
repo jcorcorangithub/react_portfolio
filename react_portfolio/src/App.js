@@ -19,11 +19,25 @@ function App() {
         {/* </Route> */}
       </header>
 
-      
-        
-      {/* <Route exact path ='/aboutme'>  */}
+      <Route exact path ='/'> 
         <AboutMe />
-      {/* </Route> */}
+      </Route>
+
+      <Route exact path ='/projects'>
+        <Projects />
+      </Route>
+
+      <Route exact path ='/resume'>
+        <Resume />
+      </Route>
+
+      <Route exact path ='/contact'>
+        <Contact />
+      </Route>
+
+      <footer>
+        <Footer />
+      </footer>
 
     </Router>
     </div>

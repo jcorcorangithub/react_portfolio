@@ -6,6 +6,10 @@ export default function NavBar(){
     return (
         <nav className="nav">
 
+            < Link className='links navlinks' to='/'>
+                <h3>AboutMe</h3>
+            </Link>
+
             < Link className='links navlinks' to='/projects'>
                 <h3>Projects</h3>
             </Link>

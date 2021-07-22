@@ -1,3 +1,3 @@
 export default function Resume(){
-    <p>resume</p>
+    return (<p>resume page</p>);
 }
