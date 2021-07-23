@@ -7,17 +7,15 @@ import Footer from './components/footer'
 import Projects from './components/projects'
 import Resume from './components/resume'
 
+import {Navbar, Nav} from 'react-bootstrap';
+
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div>
     <Router>
-      <header>James Corcoran
-        {/* <Route exact path ='/navbar'> */}
-          <NavBar />
-        {/* </Route> */}
-      </header>
+        <NavBar />
 
       <Route exact path ='/'> 
         <AboutMe />

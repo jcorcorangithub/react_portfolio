@@ -1,30 +1,33 @@
 import React from 'react';
-import {Navbar, Nav} from 'react-bootstrap';
-import { NavLink, Link } from 'react-router-dom';
+//import {Navbar, Nav} from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 export default function NavBar(){
     return (
-        <nav className="nav">
-
-            < Link className='links navlinks' to='/'>
-                <h3>AboutMe</h3>
-            </Link>
-
-            < Link className='links navlinks' to='/projects'>
-                <h3>Projects</h3>
-            </Link>
-
-            < Link className='links navlinks' to='/resume'>
-                <h3>Resume</h3>
-            </Link>
-
-            < Link className='links navlinks' to='/contact'>
-                <h3>Contact</h3>
-            </Link>
-
-
+        <nav>
+            <h1>James Corcoran</h1>
+            <ul>
+                <li>
+                    <Link className='link' to='/'>
+                        <h2>AboutMe</h2>
+                    </Link>
+                </li>
+                <li>
+                    <Link className='link' to='/projects'>
+                        <h2>Projects</h2>
+                    </Link>
+                </li>
+                <li>
+                    <Link className='link' to='/resume'>
+                        <h2>Resume</h2>
+                    </Link>
+                </li>
+                <li>
+                    <Link className='link' to='/contact'>
+                        <h2>Contact</h2>
+                    </Link>
+                </li>
+            </ul>
         </nav>
     );
 }
-
-// export default NavBar;
