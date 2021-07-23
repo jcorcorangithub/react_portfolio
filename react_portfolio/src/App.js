@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/navbar'
 import AboutMe from './components/aboutme'
@@ -7,7 +7,7 @@ import Footer from './components/footer'
 import Projects from './components/projects'
 import Resume from './components/resume'
 
-import {Navbar, Nav} from 'react-bootstrap';
+//import {Navbar, Nav} from 'react-bootstrap';
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
@@ -33,9 +33,7 @@ function App() {
         <Contact />
       </Route>
 
-      <footer>
         <Footer />
-      </footer>
 
     </Router>
     </div>

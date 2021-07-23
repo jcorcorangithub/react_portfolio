@@ -1,5 +1,3 @@
-// import React from 'react';
-
 export default function AboutMe(){
     return (
         <p>
@@ -8,5 +6,3 @@ export default function AboutMe(){
         </p>
     );
 }
-
-// export default AboutMe;
