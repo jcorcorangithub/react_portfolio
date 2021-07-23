@@ -1,12 +1,3 @@
-
-//     {
-//         name: "Satellite Locator Application",
-//         gitLink: "https://github.com/Captain63/satellite-tracker",
-//         liveLink: null,
-//         screenshotPath: "/assets/images/satellite-locator-750px.png"
-//     },
-// ]
-
 export default function Projects(){
     return (
         <div>
